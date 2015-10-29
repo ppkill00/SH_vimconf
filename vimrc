@@ -9,7 +9,6 @@
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
 
-
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
@@ -50,7 +49,7 @@ endif
 
 " Source a global configuration file if available
 
-set tabstop=2      "탭간격
+set tabstop=2      "탭간격 4칸
 set shiftwidth=2     ">>나 <<사용시 들여쓰기 간격
 set expandtab       "tab 문자를 공백문자로 변환
 set softtabstop=2    "tab 간격을 공백으로 변환하면, 삭제시 두칸단위로 삭제
@@ -74,7 +73,7 @@ set showmatch       "(),{}에서 닫는 괄호를 입력할때, 일치하는 괄
 set nu
 set smarttab
 set ai
-set cin 
+set cin
 
 hi Comment ctermfg=lightblue
 filetype plugin indent on
